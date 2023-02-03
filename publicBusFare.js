@@ -43,7 +43,10 @@ function publicBusFare(participants) {
   // After calculating the amount of people who can travel by our bus
   // the value of remaining will be:-
   remaining = participants % busSeatCapacity;
+// if(remaining >=11){
 
+    // remaining = remaining % microSeatCapacity;
+// }
   // After calculating the amount of people who can travel by our microbus
   // the value of remaining will be:-
   remaining = remaining % microSeatCapacity;
